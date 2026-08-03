@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Swat's Up! — Elyse Tang</title>
+<meta name="description" content="Case study: Swat's Up!, a 2D action game built solo in Unity 6, targeting Steam and WebGL.">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<header class="site-header" id="site-header">
+  <a class="site-header__name" href="index.html">Elyse Tang</a>
+  <nav class="nav" aria-label="Section navigation">
+    <a class="nav__link" href="swats-up.html">Swat's Up!</a>
+    <a class="nav__link" href="cranes.html">Cranes</a>
+    <a class="nav__link" href="index.html#contact">Contact</a>
+  </nav>
+</header>
+
+<main>
+  <section class="section section--game" data-reveal>
+    <a class="back-link" href="index.html#project-swats-up">&larr; Back to portfolio</a>
+
+    <h1 class="section__title">Swat's Up!</h1>
+    <p class="section__sub">
+      A 2D action game about swatting mosquitoes, built solo in Unity — from
+      empty scene to cross-platform build.
+    </p>
+
+    <div class="section__body" data-reveal data-reveal-delay="1">
+      <p>
+        Swat's Up! is a 2D action game where players control a pair of
+        hands swatting mosquitoes across weapon pickups, collectible
+        rewards, and challenge maps. Built solo in Unity (C#) with a
+        data-driven catalog system for weapons and maps, mosquito AI
+        powered by tuned state machines, and a single codebase shipping
+        to both Steam (Windows/macOS) and WebGL — including cross-platform
+        save/load and dedicated WebGL performance optimization. Most of
+        the development has focused on tuning feel: weapon pacing,
+        mosquito behavior, and progression that rewards the player
+        without dragging out the loop.
+      </p>
+    </div>
+
+    <p class="status-badge">In development — targeting October 2026 launch</p>
+
+    <div class="media-frame media-frame--video" data-reveal data-reveal-delay="2">
+      <!-- Once a WebGL build is hosted, this can also become:
+           <iframe src="[webgl-build-url]" title="Swat's Up! playable demo" loading="lazy" allowfullscreen></iframe> -->
+      <video controls playsinline poster="assets/media/swats-up-poster.png" src="assets/media/swats-up-gameplay.mp4"></video>
+    </div>
+
+    <ul class="chip-list" data-reveal data-reveal-delay="3">
+      <li class="chip">Unity 6</li>
+      <li class="chip">C#</li>
+      <li class="chip">Data-driven design</li>
+      <li class="chip">State machines</li>
+      <li class="chip">Cross-platform builds</li>
+      <li class="chip">WebGL optimization</li>
+    </ul>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <p>Designed &amp; built by Elyse Tang with Claude Code</p>
+  <p>&copy; 2026 Elyse Tang.</p>
+</footer>
+
+<script src="js/main.js" defer></script>
+</body>
+</html>
